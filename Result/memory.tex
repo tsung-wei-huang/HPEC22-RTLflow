@@ -1,0 +1,53 @@
+% This is wavefront experiment data
+\begin{figure}[!h]
+  \centering
+
+  \pgfplotsset{
+    title style={font=\huge},
+    label style={font=\normalsize},
+    legend style={at={(0.7,0.97)}, anchor=north east}
+    %ylabel style={rotate=-90},
+  }
+
+  \begin{tikzpicture}[scale=0.5]
+    \begin{axis}[
+      title=Growth of Tasks (3-layer),
+      %bar width=2pt,
+      width=\columnwidth,
+      %ybar=2pt,
+      %symbolic x coords={10,30,50,70,90},
+      xtick=data,
+      xlabel=Number of iteration,
+      ylabel=Number of tasks,
+      label style={font=\LARGE},
+      x tick label style={font=\Large},
+      y tick label style={font=\Large}
+    ]
+    \addplot table[x=x,y=TF,col sep=space]{Result/memory_usage_3};
+    \addplot table[x=x,y=Copy,col sep=space]{Result/memory_usage_3};
+    \legend{Composition, Flat}
+    \end{axis}
+  \end{tikzpicture}
+  \begin{tikzpicture}[scale=0.5]
+    \begin{axis}[
+      title=Growth of Tasks (5-layer),
+      %bar width=2pt,
+      width=\columnwidth,
+      %ybar=2pt,
+      %symbolic x coords={10,30,50,70,90},
+      xtick=data,
+      xlabel=Number of iteration,
+      ylabel=Number of tasks,
+      label style={font=\LARGE},
+      x tick label style={font=\Large},
+      y tick label style={font=\Large}
+    ]
+    \addplot table[x=x,y=TF,col sep=space]{Result/memory_usage_5};
+    \addplot table[x=x,y=Copy,col sep=space]{Result/memory_usage_5};
+    \legend{Composition, Flat}
+    \end{axis}
+  \end{tikzpicture}
+
+  \caption{The impact on graph size of using composition and non-composition (flat).}
+  \label{fig::memory}
+\end{figure}

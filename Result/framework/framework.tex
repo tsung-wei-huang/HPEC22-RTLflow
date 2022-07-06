@@ -1,0 +1,49 @@
+% This is wavefront experiment data
+\begin{figure}[!h]
+  \centering
+
+  \pgfplotsset{
+    title style={font=\LARGE},
+    label style={font=\LARGE},
+    %legend style={at={(0.35,0.97)}, anchor=north east} 
+    legend style={at={(0.5,0.97)}, anchor=north east}
+    %ylabel style={rotate=-90},
+  }
+
+  \begin{tikzpicture}[scale=0.495]
+    % Fix: CPU=14, Repeat=100
+    \begin{axis}[
+      title=Graph Traversal (14 CPUs),
+      xlabel=Graph size (|V| + |E|),
+      ylabel=Runtime (ms)
+    ]
+    \addplot+ [mark=*] table[x=x,y=OMP,col sep=space]{Result/framework/problem_size.csv};
+    \addplot+ [mark=+] table[x=x,y=TBB,col sep=space]{Result/framework/problem_size.csv};
+    \addplot+ [mark=x] table[x=x,y=TF,col sep=space]{Result/framework/problem_size.csv};
+    \legend{OpenMP, TBB, Cpp-Taskflow}
+    \end{axis}
+  \end{tikzpicture}
+  \pgfplotsset{
+    title style={font=\LARGE},
+    label style={font=\LARGE},
+    %legend style={at={(0.35,0.97)}, anchor=north east} 
+    legend style={at={(0.5,0.97)}, anchor=north east}
+    %ylabel style={rotate=-90},
+  }
+  \begin{tikzpicture}[scale=0.495]
+    % Fix: graph size = largest, repeat = 1
+    \begin{axis}[
+      title=Graph Traversal (size: 711200),
+      xlabel=Number of CPU,
+      ylabel=Runtime (ms)
+    ]
+    \addplot+ [mark=*] table[x=x,y=OMP,col sep=space]{Result/framework/scalability.csv};
+    \addplot+ [mark=+] table[x=x,y=TBB,col sep=space]{Result/framework/scalability.csv};
+    \addplot+ [mark=x] table[x=x,y=TF,col sep=space]{Result/framework/scalability.csv};
+    \legend{OpenMP, TBB, Cpp-Taskflow}
+    \end{axis}
+  \end{tikzpicture}
+
+  \caption{Runtime comparison on increasing the graph size (left) and number of CPUs (right) between OpenMP, TBB and Cpp-Taskflow}
+  \label{fig::framework_scalability}
+\end{figure}

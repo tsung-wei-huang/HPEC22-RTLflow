@@ -1,0 +1,25 @@
+digraph Framework_B {
+rankdir="LR";
+subgraph cluster_B {
+label="Framework_B";
+p0x7f3321d96480 -> p0x7f3321d966b0;
+p0x7f3321d96598 -> p0x7f3321d966b0;
+p0x7f3321d966b0 -> p0x7f3321d96368;
+p0x7f3321d96368[label="B3"];
+p0x7f3321d966b0[shape=box3d, color=blue, label="moduleA (Framework_A)"];
+}
+subgraph cluster_A {
+label="Framework_A";
+p0x7f3321d96138[label="A2"];
+p0x7f3321d96138 -> p0x7f3321d96020;
+p0x7f3321d96250[label="A1"];
+p0x7f3321d96250 -> p0x7f3321d96020;
+}
+
+p0x7f3321d96020 -> p0x7f3321d96598 [style="invis"]
+p0x7f3321d96020 -> p0x7f3321d96480 [style="invis"]
+p0x7f3321d96480[label="B2"];
+p0x7f3321d96598[label="B1"];
+p0x7f3321d96020[label="A3"];
+}
+

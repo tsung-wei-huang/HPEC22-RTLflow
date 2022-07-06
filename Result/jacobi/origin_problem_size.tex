@@ -1,0 +1,25 @@
+\begin{figure}[h]
+  \centering
+
+  \pgfplotsset{
+    title style={font=\LARGE},
+    label style={font=\LARGE},
+    %legend style={at={(0.35,0.97)}, anchor=north east}
+    %ylabel style={rotate=-90},
+  }
+
+  \begin{tikzpicture}[scale=0.9]
+    \begin{axis}[
+      title=Problem Size with fixed number of CPU,
+      xlabel=Graph Size,
+      ylabel=Runtime (ms)
+    ]
+    \addplot+ [mark=*] table[x=x,y=OMP,col sep=comma]{Result/jacobi/problem_size.csv};
+    \addplot+ [mark=+] table[x=x,y=TBB,col sep=comma]{Result/jacobi/problem_size.csv};
+    \addplot+ [mark=+] table[x=x,y=TF,col sep=comma]{Result/jacobi/problem_size.csv};
+    \legend{OMP (OpenMP), TBB (TBB), TF(Cpp-Taskflow)}
+    \end{axis}
+  \end{tikzpicture}
+  \caption{Runtime comparisons of the graph size between OpenMP, TBB and Cpp-Taskflow under 14 CPUs.}
+  \label{fig::problem_size_jacobi}
+\end{figure}

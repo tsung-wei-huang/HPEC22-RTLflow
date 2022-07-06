@@ -1,0 +1,110 @@
+r0 model=tbb num_threads=10 num_rounds=10 num_epochs=10 avg_cpu(s)=17.536
+r1 model=tbb num_threads=10 num_rounds=10 num_epochs=10 avg_cpu(s)=16.719
+r2 model=tbb num_threads=10 num_rounds=10 num_epochs=10 avg_cpu(s)=17.2033
+r3 model=tbb num_threads=10 num_rounds=10 num_epochs=10 avg_cpu(s)=17.4615
+r4 model=tbb num_threads=10 num_rounds=10 num_epochs=10 avg_cpu(s)=17.2968
+r5 model=tbb num_threads=10 num_rounds=10 num_epochs=10 avg_cpu(s)=17.3172
+r6 model=tbb num_threads=10 num_rounds=10 num_epochs=10 avg_cpu(s)=17.4374
+r7 model=tbb num_threads=10 num_rounds=10 num_epochs=10 avg_cpu(s)=17.2396
+r8 model=tbb num_threads=10 num_rounds=10 num_epochs=10 avg_cpu(s)=17.1712
+r9 model=tbb num_threads=10 num_rounds=10 num_epochs=10 avg_cpu(s)=17.2055
+Final 17.2055
+r0 model=tbb num_threads=10 num_rounds=10 num_epochs=20 avg_cpu(s)=34.445
+r1 model=tbb num_threads=10 num_rounds=10 num_epochs=20 avg_cpu(s)=34.33
+r2 model=tbb num_threads=10 num_rounds=10 num_epochs=20 avg_cpu(s)=33.7863
+r3 model=tbb num_threads=10 num_rounds=10 num_epochs=20 avg_cpu(s)=33.518
+r4 model=tbb num_threads=10 num_rounds=10 num_epochs=20 avg_cpu(s)=33.6638
+r5 model=tbb num_threads=10 num_rounds=10 num_epochs=20 avg_cpu(s)=33.6472
+r6 model=tbb num_threads=10 num_rounds=10 num_epochs=20 avg_cpu(s)=34.3836
+r7 model=tbb num_threads=10 num_rounds=10 num_epochs=20 avg_cpu(s)=34.1885
+r8 model=tbb num_threads=10 num_rounds=10 num_epochs=20 avg_cpu(s)=34.0279
+r9 model=tbb num_threads=10 num_rounds=10 num_epochs=20 avg_cpu(s)=33.9805
+Final 33.9805
+r0 model=tbb num_threads=10 num_rounds=10 num_epochs=30 avg_cpu(s)=51.39
+r1 model=tbb num_threads=10 num_rounds=10 num_epochs=30 avg_cpu(s)=49.3075
+r2 model=tbb num_threads=10 num_rounds=10 num_epochs=30 avg_cpu(s)=48.8303
+r3 model=tbb num_threads=10 num_rounds=10 num_epochs=30 avg_cpu(s)=49.473
+r4 model=tbb num_threads=10 num_rounds=10 num_epochs=30 avg_cpu(s)=49.8016
+r5 model=tbb num_threads=10 num_rounds=10 num_epochs=30 avg_cpu(s)=49.492
+r6 model=tbb num_threads=10 num_rounds=10 num_epochs=30 avg_cpu(s)=49.382
+r7 model=tbb num_threads=10 num_rounds=10 num_epochs=30 avg_cpu(s)=49.6925
+r8 model=tbb num_threads=10 num_rounds=10 num_epochs=30 avg_cpu(s)=49.9459
+r9 model=tbb num_threads=10 num_rounds=10 num_epochs=30 avg_cpu(s)=50.446
+Final 50.446
+r0 model=tbb num_threads=10 num_rounds=10 num_epochs=40 avg_cpu(s)=69.181
+r1 model=tbb num_threads=10 num_rounds=10 num_epochs=40 avg_cpu(s)=68.739
+r2 model=tbb num_threads=10 num_rounds=10 num_epochs=40 avg_cpu(s)=69.2817
+r3 model=tbb num_threads=10 num_rounds=10 num_epochs=40 avg_cpu(s)=68.645
+r4 model=tbb num_threads=10 num_rounds=10 num_epochs=40 avg_cpu(s)=68.9828
+r5 model=tbb num_threads=10 num_rounds=10 num_epochs=40 avg_cpu(s)=69.1082
+r6 model=tbb num_threads=10 num_rounds=10 num_epochs=40 avg_cpu(s)=69.1153
+r7 model=tbb num_threads=10 num_rounds=10 num_epochs=40 avg_cpu(s)=69.1044
+r8 model=tbb num_threads=10 num_rounds=10 num_epochs=40 avg_cpu(s)=68.8266
+r9 model=tbb num_threads=10 num_rounds=10 num_epochs=40 avg_cpu(s)=69.0097
+Final 69.0097
+r0 model=tbb num_threads=10 num_rounds=10 num_epochs=50 avg_cpu(s)=83.304
+r1 model=tbb num_threads=10 num_rounds=10 num_epochs=50 avg_cpu(s)=84.6315
+r2 model=tbb num_threads=10 num_rounds=10 num_epochs=50 avg_cpu(s)=83.8003
+r3 model=tbb num_threads=10 num_rounds=10 num_epochs=50 avg_cpu(s)=83.9958
+r4 model=tbb num_threads=10 num_rounds=10 num_epochs=50 avg_cpu(s)=84.5296
+r5 model=tbb num_threads=10 num_rounds=10 num_epochs=50 avg_cpu(s)=84.8828
+r6 model=tbb num_threads=10 num_rounds=10 num_epochs=50 avg_cpu(s)=85.0437
+r7 model=tbb num_threads=10 num_rounds=10 num_epochs=50 avg_cpu(s)=85.2565
+r8 model=tbb num_threads=10 num_rounds=10 num_epochs=50 avg_cpu(s)=84.771
+r9 model=tbb num_threads=10 num_rounds=10 num_epochs=50 avg_cpu(s)=84.8736
+Final 84.8736
+r0 model=tbb num_threads=10 num_rounds=10 num_epochs=60 avg_cpu(s)=104.969
+r1 model=tbb num_threads=10 num_rounds=10 num_epochs=60 avg_cpu(s)=103.712
+r2 model=tbb num_threads=10 num_rounds=10 num_epochs=60 avg_cpu(s)=104.096
+r3 model=tbb num_threads=10 num_rounds=10 num_epochs=60 avg_cpu(s)=104.79
+r4 model=tbb num_threads=10 num_rounds=10 num_epochs=60 avg_cpu(s)=104.327
+r5 model=tbb num_threads=10 num_rounds=10 num_epochs=60 avg_cpu(s)=104.096
+r6 model=tbb num_threads=10 num_rounds=10 num_epochs=60 avg_cpu(s)=103.879
+r7 model=tbb num_threads=10 num_rounds=10 num_epochs=60 avg_cpu(s)=104.061
+r8 model=tbb num_threads=10 num_rounds=10 num_epochs=60 avg_cpu(s)=103.798
+r9 model=tbb num_threads=10 num_rounds=10 num_epochs=60 avg_cpu(s)=103.694
+Final 103.694
+r0 model=tbb num_threads=10 num_rounds=10 num_epochs=70 avg_cpu(s)=118.514
+r1 model=tbb num_threads=10 num_rounds=10 num_epochs=70 avg_cpu(s)=120.093
+r2 model=tbb num_threads=10 num_rounds=10 num_epochs=70 avg_cpu(s)=118.301
+r3 model=tbb num_threads=10 num_rounds=10 num_epochs=70 avg_cpu(s)=118.389
+r4 model=tbb num_threads=10 num_rounds=10 num_epochs=70 avg_cpu(s)=118.3
+r5 model=tbb num_threads=10 num_rounds=10 num_epochs=70 avg_cpu(s)=117.898
+r6 model=tbb num_threads=10 num_rounds=10 num_epochs=70 avg_cpu(s)=117.659
+r7 model=tbb num_threads=10 num_rounds=10 num_epochs=70 avg_cpu(s)=117.644
+r8 model=tbb num_threads=10 num_rounds=10 num_epochs=70 avg_cpu(s)=118.026
+r9 model=tbb num_threads=10 num_rounds=10 num_epochs=70 avg_cpu(s)=118.438
+Final 118.438
+r0 model=tbb num_threads=10 num_rounds=10 num_epochs=80 avg_cpu(s)=139.861
+r1 model=tbb num_threads=10 num_rounds=10 num_epochs=80 avg_cpu(s)=137.928
+r2 model=tbb num_threads=10 num_rounds=10 num_epochs=80 avg_cpu(s)=137.464
+r3 model=tbb num_threads=10 num_rounds=10 num_epochs=80 avg_cpu(s)=137.873
+r4 model=tbb num_threads=10 num_rounds=10 num_epochs=80 avg_cpu(s)=138.225
+r5 model=tbb num_threads=10 num_rounds=10 num_epochs=80 avg_cpu(s)=137.958
+r6 model=tbb num_threads=10 num_rounds=10 num_epochs=80 avg_cpu(s)=137.498
+r7 model=tbb num_threads=10 num_rounds=10 num_epochs=80 avg_cpu(s)=137.051
+r8 model=tbb num_threads=10 num_rounds=10 num_epochs=80 avg_cpu(s)=137.105
+r9 model=tbb num_threads=10 num_rounds=10 num_epochs=80 avg_cpu(s)=137.17
+Final 137.17
+r0 model=tbb num_threads=10 num_rounds=10 num_epochs=90 avg_cpu(s)=152.009
+r1 model=tbb num_threads=10 num_rounds=10 num_epochs=90 avg_cpu(s)=152.885
+r2 model=tbb num_threads=10 num_rounds=10 num_epochs=90 avg_cpu(s)=152.422
+r3 model=tbb num_threads=10 num_rounds=10 num_epochs=90 avg_cpu(s)=153.504
+r4 model=tbb num_threads=10 num_rounds=10 num_epochs=90 avg_cpu(s)=153.427
+r5 model=tbb num_threads=10 num_rounds=10 num_epochs=90 avg_cpu(s)=153.043
+r6 model=tbb num_threads=10 num_rounds=10 num_epochs=90 avg_cpu(s)=153.423
+r7 model=tbb num_threads=10 num_rounds=10 num_epochs=90 avg_cpu(s)=153.666
+r8 model=tbb num_threads=10 num_rounds=10 num_epochs=90 avg_cpu(s)=153.107
+r9 model=tbb num_threads=10 num_rounds=10 num_epochs=90 avg_cpu(s)=153.413
+Final 153.413
+r0 model=tbb num_threads=10 num_rounds=10 num_epochs=100 avg_cpu(s)=173.362
+r1 model=tbb num_threads=10 num_rounds=10 num_epochs=100 avg_cpu(s)=173.926
+r2 model=tbb num_threads=10 num_rounds=10 num_epochs=100 avg_cpu(s)=173.798
+r3 model=tbb num_threads=10 num_rounds=10 num_epochs=100 avg_cpu(s)=174.288
+r4 model=tbb num_threads=10 num_rounds=10 num_epochs=100 avg_cpu(s)=174.31
+r5 model=tbb num_threads=10 num_rounds=10 num_epochs=100 avg_cpu(s)=174.5
+r6 model=tbb num_threads=10 num_rounds=10 num_epochs=100 avg_cpu(s)=174.208
+r7 model=tbb num_threads=10 num_rounds=10 num_epochs=100 avg_cpu(s)=174.359
+r8 model=tbb num_threads=10 num_rounds=10 num_epochs=100 avg_cpu(s)=173.995
+r9 model=tbb num_threads=10 num_rounds=10 num_epochs=100 avg_cpu(s)=174.284
+Final 174.284

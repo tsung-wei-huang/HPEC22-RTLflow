@@ -1,0 +1,56 @@
+      Rounds         TBB    Taskflow     speedup
+num threads = 14
+51.531 51.268 51.368 51.249 51.353 
+Avg=            5     51.3538           0         inf
+      Rounds         TBB    Taskflow     speedup
+num threads = 13
+54.676 54.654 54.765 54.516 54.567 
+Avg=            5     54.6356           0         inf
+      Rounds         TBB    Taskflow     speedup
+num threads = 12
+57.481 57.592 57.341 57.327 57.197 
+Avg=            5     57.3876           0         inf
+      Rounds         TBB    Taskflow     speedup
+num threads = 11
+60.917 60.804 60.871 61.189 61.006 
+Avg=            5     60.9574           0         inf
+      Rounds         TBB    Taskflow     speedup
+num threads = 10
+65.838 65.811 65.689 65.808 65.747 
+Avg=            5     65.7786           0         inf
+      Rounds         TBB    Taskflow     speedup
+num threads = 9
+71.733 71.96 72.099 71.636 71.914 
+Avg=            5     71.8684           0         inf
+      Rounds         TBB    Taskflow     speedup
+num threads = 8
+75.788 75.999 75.761 75.978 75.806 
+Avg=            5     75.8664           0         inf
+      Rounds         TBB    Taskflow     speedup
+num threads = 7
+83.612 83.534 83.874 83.31 83.193 
+Avg=            5     83.5046           0         inf
+      Rounds         TBB    Taskflow     speedup
+num threads = 6
+93.601 93.976 94.057 93.628 93.902 
+Avg=            5     93.8328           0         inf
+      Rounds         TBB    Taskflow     speedup
+num threads = 5
+110.256 109.549 109.609 109.397 109.637 
+Avg=            5      109.69           0         inf
+      Rounds         TBB    Taskflow     speedup
+num threads = 4
+132.159 131.78 132.73 132.1 132.396 
+Avg=            5     132.233           0         inf
+      Rounds         TBB    Taskflow     speedup
+num threads = 3
+168.562 167.903 168.457 168.99 168.404 
+Avg=            5     168.463           0         inf
+      Rounds         TBB    Taskflow     speedup
+num threads = 2
+232.007 233.297 233.725 235.497 236.908 
+Avg=            5     234.287           0         inf
+      Rounds         TBB    Taskflow     speedup
+num threads = 1
+379.028 379.066 378.24 378.61 378.403 
+Avg=            5     378.669           0         inf

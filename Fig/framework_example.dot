@@ -1,0 +1,15 @@
+digraph Framework_FrameworkExample {
+rankdir="LR";
+subgraph cluster_FrameworkExample {
+label="Framework_A_Framework_Example";
+p0x7f12c279d020[label="TaskA"];
+p0x7f12c279d020 -> p0x7f12c279d138;
+p0x7f12c279d020 -> p0x7f12c279d250;
+p0x7f12c279d138[label="TaskB"];
+p0x7f12c279d138 -> p0x7f12c279d368;
+p0x7f12c279d250[label="TaskC"];
+p0x7f12c279d250 -> p0x7f12c279d368;
+p0x7f12c279d368[label="TaskD"];
+}
+}
+

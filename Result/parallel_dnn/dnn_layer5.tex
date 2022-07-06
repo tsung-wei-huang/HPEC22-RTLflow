@@ -1,0 +1,42 @@
+% This is wavefront experiment data
+\begin{figure}[!h]
+  \centering
+
+  \pgfplotsset{
+    title style={font=\Large},
+    label style={font=\small},
+    legend style={at={(0.4,0.97)}, anchor=north east}
+    %ylabel style={rotate=-90},
+  }
+
+  \begin{tikzpicture}[scale=0.9]
+    \begin{axis}[
+      title=Hyperparamter search of 10 5-layer DNNs,
+      enlargelimits,
+      compat=newest,
+      major grid style=white,
+      %nodes near coords,
+      enlarge y limits={upper, value=0.1},
+      enlarge x limits = 0.2,
+      bar width=5pt, 
+      enlarge y limits={abs=0.45cm},
+      width=\columnwidth,
+      ybar=2pt,
+      symbolic x coords={0, 10,30,50,70,90,100},
+      xtick=data,
+      xlabel=Number of epochs,
+      ylabel=Runtime (min),
+      x tick label style={font=\small},
+      y tick label style={font=\small}
+    ]
+    %\addplot table[x=x,y=OMP,col sep=space]{Result/parallel_dnn/layer_5_mins};
+    \addplot table[x=x,y=TBB,col sep=space]{Result/parallel_dnn/layer_5_mins};
+    \addplot table[x=x,y=TF,col sep=space]{Result/parallel_dnn/layer_5_mins};
+    \legend{TBB, Cpp-Taskflow}
+    %\legend{OpenMP, TBB, Cpp-Taskflow}
+    \end{axis}
+  \end{tikzpicture}
+
+  \caption{Runtime of the 5-layer (784x64x32x16x8x10) parallel DNN hyperparameter search.}
+  \label{fig::parallel_dnn_layer5}
+\end{figure}

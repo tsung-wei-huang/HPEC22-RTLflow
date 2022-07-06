@@ -1,0 +1,41 @@
+% This is wavefront experiment data
+\begin{figure}[!h]
+  \centering
+
+  \pgfplotsset{
+    title style={font=\large},
+    label style={font=\small},
+    legend style={at={(0.5,0.97)}, anchor=north east}
+    %ylabel style={rotate=-90},
+  }
+
+  \begin{tikzpicture}[scale=0.95]
+    \begin{axis}[
+      ylabel near ticks,
+      title=Parallel DNN Training (20 epochs),
+      %bar width=2pt,
+      width=\columnwidth,
+      ybar=2pt,
+      symbolic x coords={2,4,6,8,10},
+      xtick=data,
+      height=4.7cm,
+      width=9.3cm,
+      ybar=2pt,
+      clip=false,
+      separate axis lines,
+      bar width=5pt,
+      xlabel=Number of epochs,
+      ylabel=Runtime (s),
+      x tick style={draw=none},
+      x tick label style={font=\small},
+      y tick label style={font=\small}
+    ]
+    \addplot table[x=CPU,y=TBB,col sep=space]{Experiment/total_scale};
+    \addplot table[x=CPU,y=TF,col sep=space]{Experiment/total_scale};
+    \legend{TBB, Cpp-Taskflow v2}
+    \end{axis}
+  \end{tikzpicture}
+
+  \caption{Runtime of training 10 DNNs in parallel.}
+  \label{fig::parallel_dnn_cpu}
+\end{figure}

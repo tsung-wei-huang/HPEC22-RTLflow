@@ -1,0 +1,182 @@
+num threads = 1
+         TBB    Taskflow     speedup
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+     506.811           0         inf
+num threads = 2
+         TBB    Taskflow     speedup
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+     264.334           0         inf
+num threads = 3
+         TBB    Taskflow     speedup
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+     185.731           0         inf
+num threads = 4
+         TBB    Taskflow     speedup
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+     144.207           0         inf
+num threads = 5
+         TBB    Taskflow     speedup
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+     118.384           0         inf
+num threads = 6
+         TBB    Taskflow     speedup
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+     101.202           0         inf
+num threads = 7
+         TBB    Taskflow     speedup
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+      89.253           0         inf
+num threads = 8
+         TBB    Taskflow     speedup
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+     80.8663           0         inf
+num threads = 9
+         TBB    Taskflow     speedup
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+     76.6569           0         inf
+num threads = 10
+         TBB    Taskflow     speedup
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+       69.83           0         inf
+num threads = 11
+         TBB    Taskflow     speedup
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+       64.71           0         inf
+num threads = 12
+         TBB    Taskflow     speedup
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+     60.7568           0         inf
+num threads = 13
+         TBB    Taskflow     speedup
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+     57.7598           0         inf
+num threads = 14
+         TBB    Taskflow     speedup
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+TBB starts
+      54.192           0         inf

@@ -1,0 +1,110 @@
+r0 model=tf num_threads=10 num_rounds=10 num_epochs=10 16297
+r1 model=tf num_threads=10 num_rounds=10 num_epochs=10 32490
+r2 model=tf num_threads=10 num_rounds=10 num_epochs=10 48490
+r3 model=tf num_threads=10 num_rounds=10 num_epochs=10 63420
+r4 model=tf num_threads=10 num_rounds=10 num_epochs=10 78388
+r5 model=tf num_threads=10 num_rounds=10 num_epochs=10 93319
+r6 model=tf num_threads=10 num_rounds=10 num_epochs=10 108258
+r7 model=tf num_threads=10 num_rounds=10 num_epochs=10 123253
+r8 model=tf num_threads=10 num_rounds=10 num_epochs=10 138236
+r9 model=tf num_threads=10 num_rounds=10 num_epochs=10 153144
+avg_cpu(s)=15.3144
+r0 model=tf num_threads=10 num_rounds=10 num_epochs=20 32360
+r1 model=tf num_threads=10 num_rounds=10 num_epochs=20 63737
+r2 model=tf num_threads=10 num_rounds=10 num_epochs=20 93307
+r3 model=tf num_threads=10 num_rounds=10 num_epochs=20 122877
+r4 model=tf num_threads=10 num_rounds=10 num_epochs=20 152443
+r5 model=tf num_threads=10 num_rounds=10 num_epochs=20 182004
+r6 model=tf num_threads=10 num_rounds=10 num_epochs=20 211611
+r7 model=tf num_threads=10 num_rounds=10 num_epochs=20 241170
+r8 model=tf num_threads=10 num_rounds=10 num_epochs=20 270726
+r9 model=tf num_threads=10 num_rounds=10 num_epochs=20 300302
+avg_cpu(s)=30.0302
+r0 model=tf num_threads=10 num_rounds=10 num_epochs=30 49402
+r1 model=tf num_threads=10 num_rounds=10 num_epochs=30 98443
+r2 model=tf num_threads=10 num_rounds=10 num_epochs=30 146566
+r3 model=tf num_threads=10 num_rounds=10 num_epochs=30 191931
+r4 model=tf num_threads=10 num_rounds=10 num_epochs=30 237218
+r5 model=tf num_threads=10 num_rounds=10 num_epochs=30 282538
+r6 model=tf num_threads=10 num_rounds=10 num_epochs=30 327872
+r7 model=tf num_threads=10 num_rounds=10 num_epochs=30 373196
+r8 model=tf num_threads=10 num_rounds=10 num_epochs=30 418546
+r9 model=tf num_threads=10 num_rounds=10 num_epochs=30 463851
+avg_cpu(s)=46.3851
+r0 model=tf num_threads=10 num_rounds=10 num_epochs=40 64749
+r1 model=tf num_threads=10 num_rounds=10 num_epochs=40 128528
+r2 model=tf num_threads=10 num_rounds=10 num_epochs=40 187683
+r3 model=tf num_threads=10 num_rounds=10 num_epochs=40 246984
+r4 model=tf num_threads=10 num_rounds=10 num_epochs=40 309059
+r5 model=tf num_threads=10 num_rounds=10 num_epochs=40 371391
+r6 model=tf num_threads=10 num_rounds=10 num_epochs=40 433825
+r7 model=tf num_threads=10 num_rounds=10 num_epochs=40 493068
+r8 model=tf num_threads=10 num_rounds=10 num_epochs=40 552306
+r9 model=tf num_threads=10 num_rounds=10 num_epochs=40 611505
+avg_cpu(s)=61.1505
+r0 model=tf num_threads=10 num_rounds=10 num_epochs=50 82306
+r1 model=tf num_threads=10 num_rounds=10 num_epochs=50 163530
+r2 model=tf num_threads=10 num_rounds=10 num_epochs=50 242360
+r3 model=tf num_threads=10 num_rounds=10 num_epochs=50 317597
+r4 model=tf num_threads=10 num_rounds=10 num_epochs=50 392871
+r5 model=tf num_threads=10 num_rounds=10 num_epochs=50 468153
+r6 model=tf num_threads=10 num_rounds=10 num_epochs=50 543484
+r7 model=tf num_threads=10 num_rounds=10 num_epochs=50 618814
+r8 model=tf num_threads=10 num_rounds=10 num_epochs=50 694059
+r9 model=tf num_threads=10 num_rounds=10 num_epochs=50 769294
+avg_cpu(s)=76.9294
+r0 model=tf num_threads=10 num_rounds=10 num_epochs=60 97302
+r1 model=tf num_threads=10 num_rounds=10 num_epochs=60 192467
+r2 model=tf num_threads=10 num_rounds=10 num_epochs=60 281363
+r3 model=tf num_threads=10 num_rounds=10 num_epochs=60 370307
+r4 model=tf num_threads=10 num_rounds=10 num_epochs=60 459269
+r5 model=tf num_threads=10 num_rounds=10 num_epochs=60 553400
+r6 model=tf num_threads=10 num_rounds=10 num_epochs=60 642391
+r7 model=tf num_threads=10 num_rounds=10 num_epochs=60 731349
+r8 model=tf num_threads=10 num_rounds=10 num_epochs=60 824651
+r9 model=tf num_threads=10 num_rounds=10 num_epochs=60 913504
+avg_cpu(s)=91.3504
+r0 model=tf num_threads=10 num_rounds=10 num_epochs=70 115798
+r1 model=tf num_threads=10 num_rounds=10 num_epochs=70 228536
+r2 model=tf num_threads=10 num_rounds=10 num_epochs=70 334563
+r3 model=tf num_threads=10 num_rounds=10 num_epochs=70 440645
+r4 model=tf num_threads=10 num_rounds=10 num_epochs=70 552068
+r5 model=tf num_threads=10 num_rounds=10 num_epochs=70 664757
+r6 model=tf num_threads=10 num_rounds=10 num_epochs=70 777683
+r7 model=tf num_threads=10 num_rounds=10 num_epochs=70 889247
+r8 model=tf num_threads=10 num_rounds=10 num_epochs=70 995381
+r9 model=tf num_threads=10 num_rounds=10 num_epochs=70 1.10161e+06
+avg_cpu(s)=110.161
+r0 model=tf num_threads=10 num_rounds=10 num_epochs=80 131724
+r1 model=tf num_threads=10 num_rounds=10 num_epochs=80 261000
+r2 model=tf num_threads=10 num_rounds=10 num_epochs=80 381535
+r3 model=tf num_threads=10 num_rounds=10 num_epochs=80 502012
+r4 model=tf num_threads=10 num_rounds=10 num_epochs=80 622398
+r5 model=tf num_threads=10 num_rounds=10 num_epochs=80 742874
+r6 model=tf num_threads=10 num_rounds=10 num_epochs=80 863385
+r7 model=tf num_threads=10 num_rounds=10 num_epochs=80 983738
+r8 model=tf num_threads=10 num_rounds=10 num_epochs=80 1.10419e+06
+r9 model=tf num_threads=10 num_rounds=10 num_epochs=80 1.2245e+06
+avg_cpu(s)=122.45
+r0 model=tf num_threads=10 num_rounds=10 num_epochs=90 146631
+r1 model=tf num_threads=10 num_rounds=10 num_epochs=90 289025
+r2 model=tf num_threads=10 num_rounds=10 num_epochs=90 429836
+r3 model=tf num_threads=10 num_rounds=10 num_epochs=90 563976
+r4 model=tf num_threads=10 num_rounds=10 num_epochs=90 697890
+r5 model=tf num_threads=10 num_rounds=10 num_epochs=90 832027
+r6 model=tf num_threads=10 num_rounds=10 num_epochs=90 966220
+r7 model=tf num_threads=10 num_rounds=10 num_epochs=90 1.10034e+06
+r8 model=tf num_threads=10 num_rounds=10 num_epochs=90 1.23454e+06
+r9 model=tf num_threads=10 num_rounds=10 num_epochs=90 1.37503e+06
+avg_cpu(s)=137.503
+r0 model=tf num_threads=10 num_rounds=10 num_epochs=100 161958
+r1 model=tf num_threads=10 num_rounds=10 num_epochs=100 322227
+r2 model=tf num_threads=10 num_rounds=10 num_epochs=100 480086
+r3 model=tf num_threads=10 num_rounds=10 num_epochs=100 628125
+r4 model=tf num_threads=10 num_rounds=10 num_epochs=100 776216
+r5 model=tf num_threads=10 num_rounds=10 num_epochs=100 931452
+r6 model=tf num_threads=10 num_rounds=10 num_epochs=100 1.07952e+06
+r7 model=tf num_threads=10 num_rounds=10 num_epochs=100 1.22747e+06
+r8 model=tf num_threads=10 num_rounds=10 num_epochs=100 1.37542e+06
+r9 model=tf num_threads=10 num_rounds=10 num_epochs=100 1.53234e+06
+avg_cpu(s)=153.234

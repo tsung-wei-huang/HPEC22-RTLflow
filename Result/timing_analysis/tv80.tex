@@ -1,0 +1,35 @@
+% This is wavefront experiment data
+\begin{figure}[!h]
+  \centering
+
+  \pgfplotsset{
+    title style={font=\Large},
+    label style={font=\small},
+    %legend style={at={(0.35,0.97)}, anchor=north east} 
+    legend style={at={(0.7,0.97)}, anchor=north east}
+    %ylabel style={rotate=-90},
+  }
+
+  \begin{tikzpicture}[scale=0.9]
+    % Fix: CPU=14, Repeat=100
+    \begin{axis}[
+      title=VSLI Timing Analysis,
+      bar width=3pt,
+      width=\columnwidth,
+      ybar=2pt,
+      symbolic x coords={1,2,3,4,5,6,7,8,9,10,11,12,13,14},
+      xtick=data,
+      xlabel=Number of CPUs,
+      ylabel=Runtime (s),
+      x tick label style={font=\small},
+      y tick label style={font=\small}
+    ]
+    \addplot table[x=x,y=TBB,col sep=space]{Result/timing_analysis/tv80.csv};
+    \addplot table[x=x,y=TF,col sep=space]{Result/timing_analysis/tv80.csv};
+    \legend{TBB, Cpp-Taskflow v2}
+    \end{axis}
+  \end{tikzpicture}
+
+  \caption{Runtime comparisons of the proposed VLSI timing analysis flow on circuit tv80 using TBB and Cpp-Taskflow v2}
+  \label{fig::tv80}
+\end{figure}

@@ -1,0 +1,44 @@
+% This is wavefront experiment data
+\begin{figure}[!h]
+  \centering
+
+  \pgfplotsset{
+    title style={font=\large},
+    label style={font=\small},
+    %legend style={at={(0.35,0.97)}, anchor=north east} 
+    legend style={at={(0.9,0.9)}, anchor=north east}
+    %ylabel style={rotate=-90},
+  }
+
+  \begin{tikzpicture}[scale=0.9]
+    % Fix: CPU=14, Repeat=100
+    \begin{axis}[
+      ylabel near ticks,
+      %title=VSLI Timing Analysis,
+      bar width=3pt,
+      width=\columnwidth,
+      ybar=2pt,
+      %xtick distance=2,
+      symbolic x coords={1,2,3,4,5,6,7,8,9,10,11,12,13,14},
+      xtick=data,
+      bar width=4pt,
+      clip=false,
+      separate axis lines,
+      xlabel=Number of cores,
+      ylabel=Runtime (s),
+      height=5.0cm,
+      width=9.4cm,
+      x tick style={draw=none},
+      %y tick style={draw=none},
+      x tick label style={font=\small},
+      y tick label style={font=\small}
+    ]
+    \addplot table[x=Thread,y=TBB,col sep=space]{Experiment/camera_timer_all};
+    \addplot table[x=Thread,y=TF,col sep=space]{Experiment/camera_timer_all};
+    \legend{TBB, Cpp-Taskflow v2}
+    \end{axis}
+  \end{tikzpicture}
+
+  \caption{Runtime comparisons of the proposed VLSI timing analysis flow on circuit tv80 using TBB and Cpp-Taskflow v2}
+  \label{fig::tv80}
+\end{figure}

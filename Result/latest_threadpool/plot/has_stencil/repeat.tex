@@ -1,0 +1,69 @@
+% This is wavefront experiment data
+\begin{figure}[h]
+  \centering
+
+  \pgfplotsset{
+    title style={font=\LARGE},
+    label style={font=\LARGE},
+    %legend style={at={(0.35,0.97)}, anchor=north east} 
+    legend style={at={(0.5,0.97)}, anchor=north east}
+    %ylabel style={rotate=-90},
+  }
+
+  \begin{tikzpicture}[scale=0.5]
+    % Fix: CPU=14, Repeat=100
+    \begin{axis}[
+      title=5-point stencil (repeat: 1),
+      xlabel=Block count,
+      ylabel=Runtime (ms)
+    ]
+    \addplot+ [mark=*] table[x=x,y=OMP,col sep=space]{Result/latest_threadpool/plot/has_stencil/repeat/repeat_1.csv};
+    \addplot+ [mark=+] table[x=x,y=TBB,col sep=space]{Result/latest_threadpool/plot/has_stencil/repeat/repeat_1.csv};
+    \addplot+ [mark=x] table[x=x,y=TF,col sep=space]{Result/latest_threadpool/plot/has_stencil/repeat/repeat_1.csv};
+    \legend{OpenMP, TBB, Cpp-Taskflow}
+    \end{axis}
+  \end{tikzpicture}
+  \begin{tikzpicture}[scale=0.5]
+    % Fix: CPU=14, Repeat=100
+    \begin{axis}[
+      title=5-point stencil (repeat: 5),
+      xlabel=Block count,
+      ylabel=Runtime (ms)
+    ]
+    \addplot+ [mark=*] table[x=x,y=OMP,col sep=space]{Result/latest_threadpool/plot/has_stencil/repeat/repeat_5.csv};
+    \addplot+ [mark=+] table[x=x,y=TBB,col sep=space]{Result/latest_threadpool/plot/has_stencil/repeat/repeat_5.csv};
+    \addplot+ [mark=x] table[x=x,y=TF,col sep=space]{Result/latest_threadpool/plot/has_stencil/repeat/repeat_5.csv};
+    \legend{OpenMP, TBB, Cpp-Taskflow}
+    \end{axis}
+  \end{tikzpicture}
+
+  \begin{tikzpicture}[scale=0.5]
+    % Fix: CPU=14, Repeat=100
+    \begin{axis}[
+      title=5-point stencil (repeat: 10),
+      xlabel=Block count,
+      ylabel=Runtime (ms)
+    ]
+    \addplot+ [mark=*] table[x=x,y=OMP,col sep=space]{Result/latest_threadpool/plot/has_stencil/repeat/repeat_10.csv};
+    \addplot+ [mark=+] table[x=x,y=TBB,col sep=space]{Result/latest_threadpool/plot/has_stencil/repeat/repeat_10.csv};
+    \addplot+ [mark=x] table[x=x,y=TF,col sep=space]{Result/latest_threadpool/plot/has_stencil/repeat/repeat_10.csv};
+    \legend{OpenMP, TBB, Cpp-Taskflow}
+    \end{axis}
+  \end{tikzpicture}
+  \begin{tikzpicture}[scale=0.5]
+    % Fix: CPU=14, Repeat=100
+    \begin{axis}[
+      title=5-point stencil (repeat: 100),
+      xlabel=Block count,
+      ylabel=Runtime (ms)
+    ]
+    \addplot+ [mark=*] table[x=x,y=OMP,col sep=space]{Result/latest_threadpool/plot/has_stencil/repeat/repeat_100.csv};
+    \addplot+ [mark=+] table[x=x,y=TBB,col sep=space]{Result/latest_threadpool/plot/has_stencil/repeat/repeat_100.csv};
+    \addplot+ [mark=x] table[x=x,y=TF,col sep=space]{Result/latest_threadpool/plot/has_stencil/repeat/repeat_100.csv};
+    \legend{OpenMP, TBB, Cpp-Taskflow}
+    \end{axis}
+  \end{tikzpicture}
+
+  \caption{Runtime comparisons on repeatedly executing the same tasking graph between OpenMP, TBB and Cpp-Taskflow using 14 CPUs.}
+  \label{fig::wavefront_repeat}
+\end{figure}

@@ -1,0 +1,81 @@
+\relax 
+\citation{Sculley_15_01}
+\citation{Ayguad_2018,task_taxonomy}
+\citation{Palkar_18_01}
+\citation{Huang_19_01}
+\providecommand \oddpage@label [2]{}
+\@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces  Using our composable task dependency graph to describe a parallel neural network training workload. Taskflow object A represents one training iteration and is used to compose taskflow object B for the entire training procedure. }}{1}}
+\newlabel{fig::taskflow_demo}{{1}{1}}
+\citation{Cpp-Taskflow}
+\citation{Huang_19_01}
+\@writefile{toc}{\contentsline {section}{\numberline {II}Composable Parallel Processing}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-A}}Cpp-Taskflow: A Modern C++ Parallel Task Programming Library}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-B}}A New Task Dependency Graph}{2}}
+\newlabel{task_creation}{{1}{2}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {1}Create a task dependency graph of two dependent static tasks and one dynamic task.}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-C}}Execute a Task Dependency Graph}{2}}
+\citation{tbb}
+\newlabel{taskflow_execution}{{2}{3}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {2}Different ways to execute a task dependency graph.}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-D}}Task Dependency Graph Composition}{3}}
+\newlabel{taskflow_composition}{{3}{3}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {3}Cpp-Taskflow v2 taskflow object composition code (19 LOC and 167 tokens).}{3}}
+\newlabel{tbb_composition}{{4}{3}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4}TBB hard-coded composition code (48 LOC and 256 tokens).}{3}}
+\citation{dot}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-E}}Unified Task Execution}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces  An example to illustrate the execution of module task. }}{4}}
+\newlabel{fig::scheduling}{{2}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-F}}Visualize a task dependency graph with both regular and module tasks.}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {III}Evaluation}{4}}
+\citation{Hyperparameter_2013}
+\citation{Hyperparameter_2013}
+\citation{random_search}
+\citation{bayesian_search}
+\citation{grid_search}
+\citation{mnist}
+\citation{Huang_19_01}
+\citation{lizard}
+\citation{Huang_16_01}
+\citation{Huang_15_01}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces  Visualize the task dependency graph D with its regular and module tasks. Note the arrows between taskflow objects are added deliberately here for clarity. }}{5}}
+\newlabel{fig::framework_dump}{{3}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-A}}Machine Learning Application}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces  Parallel DNN training through hierarchical composition. }}{5}}
+\newlabel{fig::dnn_composition}{{4}{5}}
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces Code complexity analysis of the parallel DNN training framework.}}{5}}
+\newlabel{table::parallel_dnn_table}{{I}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Runtime of training 10 DNNs using 10 cores in parallel.}}{5}}
+\newlabel{fig::parallel_dnn}{{5}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-B}}VLSI Timing Analysis}{5}}
+\citation{Huang_15_01}
+\citation{tau_2015}
+\bibstyle{unsrt}
+\bibdata{hpec}
+\bibcite{Sculley_15_01}{1}
+\bibcite{Ayguad_2018}{2}
+\bibcite{task_taxonomy}{3}
+\bibcite{Palkar_18_01}{4}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces  A parallel VLSI timing analysis framework. }}{6}}
+\newlabel{fig::vlsi_timing}{{6}{6}}
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Code complexity analysis of the timing analysis flow. The first table is the whole file and the second table is for individual framework.}}{6}}
+\newlabel{table::vlsi_timing_table}{{II}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Runtime comparisons of the proposed VLSI timing analysis flow on circuit tv80 using TBB and Cpp-Taskflow v2}}{6}}
+\newlabel{fig::tv80}{{7}{6}}
+\@writefile{toc}{\contentsline {section}{\numberline {IV}Conclusions}{6}}
+\@writefile{toc}{\contentsline {section}{\numberline {V}Acknowledgement}{6}}
+\@writefile{toc}{\contentsline {section}{References}{6}}
+\bibcite{Huang_19_01}{5}
+\bibcite{Cpp-Taskflow}{6}
+\bibcite{tbb}{7}
+\bibcite{dot}{8}
+\bibcite{Hyperparameter_2013}{9}
+\bibcite{random_search}{10}
+\bibcite{bayesian_search}{11}
+\bibcite{grid_search}{12}
+\bibcite{mnist}{13}
+\bibcite{lizard}{14}
+\bibcite{Huang_16_01}{15}
+\bibcite{Huang_15_01}{16}
+\bibcite{tau_2015}{17}
